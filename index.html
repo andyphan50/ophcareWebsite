@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="main.js" defer></script>
 	</head>
 	<body class="is-preload">
 
@@ -180,7 +181,8 @@
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send Message" id="submitBtn" /></li>
+									<li id="confirmationMessage" hidden>Thank you. Confirmation email sent to your email.</li>
 								</ul>
 							</form>
 						</section>
